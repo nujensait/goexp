@@ -1,5 +1,6 @@
 /**
 @source https://stepik.org/lesson/228838/step/7?unit=201372
+
 Напишите функцию, находящую наименьшее из четырех введённых в этой же функции чисел.
 Входные данные
 Вводится четыре числа.
@@ -37,6 +38,7 @@ func Min2(a, b int) int {
 
 func minimumFromFour() int {
 	var a [4]int
+	println("Input 4 integers, separated by ' ':")
 	for i := 0; i < 4; i++ {
 		fmt.Scan(&a[i])
 	}

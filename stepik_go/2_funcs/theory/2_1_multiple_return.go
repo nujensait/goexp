@@ -5,17 +5,18 @@
 // А после оператора return располагаются через запятую все возвращаемые значения:
 // Функция add принимает четыре параметра: два числа и две строки. Возвращает число (значение типа int) и строку.
 // Возвращаемые значения указаны после оператора return.
+
 package main
 
 import "fmt"
 
 func main() {
-	var age, name = Add(4, 5, "Tom", "Simpson")
+	var age, name = CustomAdd(4, 5, "Tom", "Simpson")
 	fmt.Println(age)  // 9
 	fmt.Println(name) // Tom Simpson
 }
 
-func Add(x, y int, firstName, lastName string) (int, string) {
+func CustomAdd(x, y int, firstName, lastName string) (int, string) {
 	var z int = x + y
 	var fullName = firstName + " " + lastName
 	return z, fullName
