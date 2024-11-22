@@ -12,7 +12,7 @@
 Вводится одно число n.
 
 Выходные данные
-Необходимо вывести  значение φn.
+Необходимо вывести значение φn.
 
 Sample Input:
 4
@@ -33,13 +33,16 @@ func main() {
 }
 
 func fibonacci(n int) int {
+
 	var a [1000]int
 	a[1] = 1
 	a[2] = 1
+
 	for i := 3; i <= n; i++ {
 		a[i] = a[i-1] + a[i-2]
 		//fmt.Println(a[i])
 		//fmt.Println(" ")
 	}
+
 	return a[n]
 }

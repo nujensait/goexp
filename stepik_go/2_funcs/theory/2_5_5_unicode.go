@@ -1,6 +1,7 @@
 /**
 Unicode
 Помимо пакета strings, есть некоторые полезные функции из пакета unicode для работы с символами.
+
 Usage:
 go run theory/2_5_5_unicode.go
 */

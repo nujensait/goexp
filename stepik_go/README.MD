@@ -11,6 +11,38 @@ go run 2_1_2_test.go
 
 -------------------------
 
+## Tasks list
+
+### Solved by me:
+```
+2_1_10_sumint.go        - cals sum of function arguments
+2_1_6_print_str.go      - print inputed string
+2_1_7_min_num.go        - output min number from 4 inputed
+2_1_8_votes.go          - votes count
+2_1_9_fibonacci.go      - find Fibonacci number
+2_3_1_mult_nums.go      - mnultiply nums
+2_3_2_swap_vars.go      - swao vars with pointers
+2_4_7_struct.go         - shoots on testStruct
+2_5_6_right_string.go   - check that string is "right"
+2_5_7_palindrome.go     - check that string is "palindrome"
+2_5_7_substr.go         - find substring of string
+```
+### Samples from lections:
+```
+/theory/...
+2_1_2_hello.go             - print 'hello'
+2_1_3_pass_arg_by_value.go - pass arguments by value
+2_1_ignore.go              - ignore output
+2_1_multiple_return.go     - function returns multiple values
+2_1_theory.go              - function returns result
+2_3_8_pointers.go          - pointers samples
+2_5_2_strings.go           - work with strings
+2_5_5_byte_slice.go        - string as bytes slice
+2_5_5_unicode.go           - work with unicode sctrings (samples)
+2_5_6_strlen.go            - calc string lenght (for russian strings also)
+```
+-------------------------
+
 ## Course learn progress
 
 1. Basics
@@ -33,7 +65,7 @@ go run 2_1_2_test.go
     - [x] 2.2 Packages
     - [x] 2.3 Pointers
     - [x] 2.4 Structures
-    - [ ] 2.5 Strings
+    - [x] 2.5 Strings
     - [ ] 2.6 Error handling
     - [ ] 2.7 Problem solving
 

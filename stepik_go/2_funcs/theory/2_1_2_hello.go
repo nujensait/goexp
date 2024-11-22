@@ -1,4 +1,7 @@
-// @source https://stepik.org/lesson/228838/step/2?auth=login&unit=201372
+/**
+print 'test'
+@source https://stepik.org/lesson/228838/step/2?auth=login&unit=201372
+*/
 
 package main
 
@@ -14,4 +17,5 @@ func main2() {
 
 func hello() {
 	// nothing will be here
+	fmt.Println("test hello")
 }
