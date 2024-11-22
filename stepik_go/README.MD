@@ -30,9 +30,9 @@ go run 2_1_2_test.go
 
 2. Functions, structures, pointers and more
     - [x] 2.1 Functions
-    - [ ] 2.2 Packages
-    - [ ] 2.3 Pointers
-    - [ ] 2.4 Structures
+    - [x] 2.2 Packages
+    - [x] 2.3 Pointers
+    - [x] 2.4 Structures
     - [ ] 2.5 Strings
     - [ ] 2.6 Error handling
     - [ ] 2.7 Problem solving
@@ -71,3 +71,5 @@ go help doc
 
 ## Author
 Mikhail Ikonnikov <mishaikon@gmail.com>
+
+-------------------------
