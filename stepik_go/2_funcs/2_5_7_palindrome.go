@@ -25,13 +25,8 @@ import (
 
 func main() {
 
-	//text, _ := bufio.NewReader(os.Stdin).ReadString('\n')
-	//text = strings.TrimSpace(text) // Удаляем пробелы в начале и конце
-
 	reader := bufio.NewReader(os.Stdin)
 	text, _ := reader.ReadString('\n')
-
-	//text = text[:len(text)-1] // Удаляем перевод строки
 	text = strings.TrimSpace(text) // Удаляем пробелы в начале и конце
 
 	// Проверка палиндрома
@@ -44,5 +39,6 @@ func main() {
 			return
 		}
 	}
+
 	fmt.Println("Палиндром")
 }

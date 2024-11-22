@@ -39,7 +39,9 @@ go run 2_1_2_test.go
 2_5_2_strings.go           - work with strings
 2_5_5_byte_slice.go        - string as bytes slice
 2_5_5_unicode.go           - work with unicode sctrings (samples)
-2_5_6_strlen.go            - calc string lenght (for russian strings also)
+2_5_6_strlen.go            - calc string length (for russian strings also)
+2_5_8_even_chars.go        - output even chars of string
+2_5_9_del_rep_chars.go     - delete repeatable chars
 ```
 -------------------------
 
