@@ -13,7 +13,7 @@ go run 2_1_2_test.go
 
 ## Course learn progress
 
-1. Основы
+1. Basics
     - [x] 1.1 About the course
     - [x] 1.2 About Go
     - [x] 1.3 First program
@@ -70,6 +70,6 @@ go help doc
 -------------------------
 
 ## Author
-Mikhail Ikonnikov <mishaikon@gmail.com>
+Mikhail Ikonnikov [<mishaikon@gmail.com>](mailto:mishaikon@gmail.com)
 
 -------------------------
