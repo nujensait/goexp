@@ -42,6 +42,7 @@ go run 2_1_2_test.go
 2_5_6_strlen.go            - calc string length (for russian strings also)
 2_5_8_even_chars.go        - output even chars of string
 2_5_9_del_rep_chars.go     - delete repeatable chars
+2_5_10_password.go         - password validator
 ```
 -------------------------
 
@@ -105,5 +106,7 @@ go help doc
 
 ## Author
 Mikhail Ikonnikov [<mishaikon@gmail.com>](mailto:mishaikon@gmail.com)
+
+[https://github.com/nujensait/goexp/tree/main/stepik_go](https://github.com/nujensait/goexp/tree/main/stepik_go)
 
 -------------------------
