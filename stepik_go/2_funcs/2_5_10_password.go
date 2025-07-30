@@ -15,4 +15,43 @@ Ok
 
 package main
 
-// ...
+import (
+	"fmt"
+	"unicode"
+)
+
+func main() {
+	var password string
+	fmt.Scan(&password)
+
+	if isValidPassword(password) {
+		fmt.Println("Ok")
+	} else {
+		fmt.Println("Wrong password")
+	}
+}
+
+func isValidPassword(password string) bool {
+	// Check length
+	if len(password) < 5 {
+		return false
+	}
+
+	// Check each character
+	for _, char := range password {
+		// Check if character is a letter or digit
+		if !unicode.IsLetter(char) && !unicode.IsDigit(char) {
+			return false
+		}
+		// Check if letter is Latin
+		if unicode.IsLetter(char) && !isLatinLetter(char) {
+			return false
+		}
+	}
+
+	return true
+}
+
+func isLatinLetter(char rune) bool {
+	return (char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z')
+}
