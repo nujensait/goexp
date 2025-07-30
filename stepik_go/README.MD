@@ -26,10 +26,18 @@ go run 2_1_2_test.go
 2_5_6_right_string.go   - check that string is "right"
 2_5_7_palindrome.go     - check that string is "palindrome"
 2_5_7_substr.go         - find substring of string
+2_5_8_even_chars.go     - output even chars of string
+2_5_9_del_rep_chars.go  - delete repeatable chars
+2_5_10_password.go      - password validator
+2_6_4_error_handle.go   - error handling example
+2_7_2_stars.go          - print stars pattern
+2_7_2_triangle.go       - print triangle pattern
+2_7_3_maxnum.go         - find maximum number
+2_7_5_squarenums.go     - generate square numbers
+2_7_7_physics.go        - physics calculations
 ```
-### Samples from lections:
+### Samples from lections ('/theory' dir):
 ```
-/theory/...
 2_1_2_hello.go             - print 'hello'
 2_1_3_pass_arg_by_value.go - pass arguments by value
 2_1_ignore.go              - ignore output
@@ -40,9 +48,6 @@ go run 2_1_2_test.go
 2_5_5_byte_slice.go        - string as bytes slice
 2_5_5_unicode.go           - work with unicode sctrings (samples)
 2_5_6_strlen.go            - calc string length (for russian strings also)
-2_5_8_even_chars.go        - output even chars of string
-2_5_9_del_rep_chars.go     - delete repeatable chars
-2_5_10_password.go         - password validator
 ```
 -------------------------
 
@@ -69,8 +74,8 @@ go run 2_1_2_test.go
     - [x] 2.3 Pointers
     - [x] 2.4 Structures
     - [x] 2.5 Strings
-    - [ ] 2.6 Error handling
-    - [ ] 2.7 Problem solving
+    - [x] 2.6 Error handling
+    - [x] 2.7 Problem solving
 
 3. Map, files, interfaces, multithreading and more
     - [ ] 3.1 Maps
